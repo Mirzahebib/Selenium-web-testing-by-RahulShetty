@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-19T10:16:04Z" name="Suite" finished-at="2021-02-19T10:16:34Z" duration-ms="29588">
+    <groups>
+    </groups>
+    <test started-at="2021-02-19T10:16:04Z" name="Test" finished-at="2021-02-19T10:16:34Z" duration-ms="29588">
+      <class name="Academy.HomePageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.HomePageTest@44be0077]" started-at="2021-02-19T11:16:04Z" name="initialize" finished-at="2021-02-19T11:16:11Z" duration-ms="7250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.LoginTests@14f232c4]" started-at="2021-02-19T11:16:11Z" name="initialize" finished-at="2021-02-19T11:16:13Z" duration-ms="1721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.NavigationTests@39b43d60]" started-at="2021-02-19T11:16:13Z" name="initialize" finished-at="2021-02-19T11:16:20Z" duration-ms="7141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="ThisisDemo()[pri:0, instance:Academy.HomePageTest@44be0077]" started-at="2021-02-19T11:16:20Z" name="ThisisDemo" finished-at="2021-02-19T11:16:20Z" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThisisDemo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.HomePageTest@44be0077]" started-at="2021-02-19T11:16:33Z" name="teardown" finished-at="2021-02-19T11:16:33Z" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.LoginTests@14f232c4]" started-at="2021-02-19T11:16:33Z" name="teardown" finished-at="2021-02-19T11:16:33Z" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.NavigationTests@39b43d60]" started-at="2021-02-19T11:16:33Z" name="teardown" finished-at="2021-02-19T11:16:34Z" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePageTest -->
+      <class name="Academy.LoginTests">
+        <test-method signature="LoginValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:Academy.LoginTests@14f232c4]" started-at="2021-02-19T11:16:20Z" name="LoginValidCredentials" data-provider="getData" finished-at="2021-02-19T11:16:28Z" duration-ms="7393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mirzhfhhdfhdfa.hebib@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12333344]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidCredentials -->
+        <test-method signature="LoginValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:Academy.LoginTests@14f232c4]" started-at="2021-02-19T11:16:28Z" name="LoginValidCredentials" data-provider="getData" finished-at="2021-02-19T11:16:33Z" duration-ms="4763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[teststsggdddds@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1233334sssssstt4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidCredentials -->
+      </class> <!-- Academy.LoginTests -->
+      <class name="Academy.NavigationTests">
+        <test-method signature="navigationBarPresent()[pri:0, instance:Academy.NavigationTests@39b43d60]" started-at="2021-02-19T11:16:20Z" name="navigationBarPresent" finished-at="2021-02-19T11:16:20Z" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBarPresent -->
+      </class> <!-- Academy.NavigationTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="10" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-26T12:59:46 CET" name="Loan Department" finished-at="2021-01-26T12:59:46 CET" duration-ms="126">
+    <groups>
+      <group name="Smoke">
+        <method signature="day1.SecondTest()[pri:0, instance:test.day1@69fb6037]" name="SecondTest" class="test.day1"/>
+        <method signature="day4.LoginMobCarLoan1()[pri:0, instance:test.day4@26275bef]" name="LoginMobCarLoan1" class="test.day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-01-26T12:59:46 CET" name="Car Loan" finished-at="2021-01-26T12:59:46 CET" duration-ms="98">
+      <class name="test.day4">
+        <test-method is-config="true" signature="Bfsuite()[pri:0, instance:test.day4@26275bef]" started-at="2021-01-26T12:59:46 CET" name="Bfsuite" finished-at="2021-01-26T12:59:46 CET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuite -->
+        <test-method signature="LoginAPICarLoan2()[pri:0, instance:test.day4@26275bef]" started-at="2021-01-26T12:59:46 CET" name="LoginAPICarLoan2" finished-at="2021-01-26T12:59:46 CET" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPICarLoan2 -->
+        <test-method signature="LoginMobCarLoan1()[pri:0, instance:test.day4@26275bef]" started-at="2021-01-26T12:59:46 CET" name="LoginMobCarLoan1" finished-at="2021-01-26T12:59:46 CET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMobCarLoan1 -->
+        <test-method signature="LoginWebCarLoan()[pri:0, instance:test.day4@26275bef]" started-at="2021-01-26T12:59:46 CET" name="LoginWebCarLoan" finished-at="2021-01-26T12:59:46 CET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWebCarLoan -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method signature="Web1()[pri:0, instance:test.day2@7690781]" started-at="2021-01-26T12:59:46 CET" name="Web1" finished-at="2021-01-26T12:59:46 CET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Web1 -->
+        <test-method signature="Web2(java.lang.String)[pri:0, instance:test.day2@7690781]" started-at="2021-01-26T12:59:46 CET" name="Web2" finished-at="2021-01-26T12:59:46 CET" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewAcademyTesting.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Web2 -->
+        <test-method signature="Web3()[pri:0, instance:test.day2@7690781]" started-at="2021-01-26T12:59:46 CET" name="Web3" finished-at="2021-01-26T12:59:46 CET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Web3 -->
+        <test-method is-config="true" signature="Afsuite()[pri:0, instance:test.day2@7690781]" started-at="2021-01-26T12:59:46 CET" name="Afsuite" finished-at="2021-01-26T12:59:46 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afsuite -->
+      </class> <!-- test.day2 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2021-01-26T12:59:46 CET" name="Personal Loan" finished-at="2021-01-26T12:59:46 CET" duration-ms="126">
+      <class name="test.day3">
+        <test-method signature="MobCarLoan5(java.lang.String, java.lang.String)[pri:0, instance:test.day3@36d585c]" started-at="2021-01-26T12:59:46 CET" name="MobCarLoan5" data-provider="getData" finished-at="2021-01-26T12:59:46 CET" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobCarLoan5 -->
+        <test-method signature="MobCarLoan5(java.lang.String, java.lang.String)[pri:0, instance:test.day3@36d585c]" started-at="2021-01-26T12:59:46 CET" name="MobCarLoan5" data-provider="getData" finished-at="2021-01-26T12:59:46 CET" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassoword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobCarLoan5 -->
+        <test-method signature="MobCarLoan5(java.lang.String, java.lang.String)[pri:0, instance:test.day3@36d585c]" started-at="2021-01-26T12:59:46 CET" name="MobCarLoan5" data-provider="getData" finished-at="2021-01-26T12:59:46 CET" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdsetpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobCarLoan5 -->
+        <test-method signature="MobCarLoan6()[pri:0, instance:test.day3@36d585c]" started-at="2021-01-26T12:59:46 CET" name="MobCarLoan6" finished-at="2021-01-26T12:59:46 CET" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.day3.MobCarLoan6(day3.java:43)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobCarLoan6 -->
+      </class> <!-- test.day3 -->
+      <class name="test.day1">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:test.day1@69fb6037]" started-at="2021-01-26T12:59:46 CET" name="prerequisite" finished-at="2021-01-26T12:59:46 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="Demo()[pri:0, instance:test.day1@69fb6037]" started-at="2021-01-26T12:59:46 CET" name="Demo" finished-at="2021-01-26T12:59:46 CET" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at test.day1.Demo(day1.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondTest()[pri:0, instance:test.day1@69fb6037]" started-at="2021-01-26T12:59:46 CET" name="SecondTest" finished-at="2021-01-26T12:59:46 CET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method is-config="true" signature="cleaning()[pri:0, instance:test.day1@69fb6037]" started-at="2021-01-26T12:59:46 CET" name="cleaning" finished-at="2021-01-26T12:59:46 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleaning -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

@@ -1,0 +1,9 @@
+11:18:56.677 [main] INFO  beta.Demo1 - object is present
+11:18:56.686 [main] ERROR beta.Demo1 - object is not present
+11:18:56.687 [main] FATAL beta.Demo1 - this is fatal
+11:18:56.687 [main] INFO  beta.Demo1 - object is present
+11:18:56.687 [main] ERROR beta.Demo1 - object is not present
+11:18:56.687 [main] FATAL beta.Demo1 - this is fatal
+11:18:56.688 [main] INFO  beta.Demo1 - object is present
+11:18:56.688 [main] ERROR beta.Demo1 - object is not present
+11:18:56.688 [main] FATAL beta.Demo1 - this is fatal
